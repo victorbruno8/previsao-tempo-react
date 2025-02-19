@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 // import './styles.css'
 
 // function WeatherInformations5Days({ weather5Days }) {
@@ -88,7 +89,7 @@ function WeatherInformations5Days({ weather5Days }) {
                     </div>
                 ))}
             </div>
-        </div>
+        </div>  
     )
 }
 

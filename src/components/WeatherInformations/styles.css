@@ -1,3 +1,5 @@
+
+
 .weather-container {
     background-color: rgba( 255, 255, 255, 0.8);
     border-radius: 20px;
@@ -7,6 +9,8 @@
         & h2 {
             font-size: 2em;
         }
+
+        
 }
 
 .weather-info {
@@ -28,4 +32,11 @@
     display: flex;
     justify-content: space-around;
     padding-top: 30px;
+
+        @media screen and (max-width: 700px) {
+            flex-direction: column;
+            gap: 15px;
+        }
+
+  
 }   
